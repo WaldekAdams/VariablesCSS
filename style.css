@@ -1,0 +1,38 @@
+:root {
+    --spacing: 10px;
+    --blur: 10px;
+    --base: green;
+}
+
+
+body {
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+div.controls input,
+div.controls label {
+    margin-left: 30px;
+}
+
+div.picture {
+    margin: 100px auto;
+    width: 70vw;
+    height: 65vh;
+    padding: var(--spacing);
+    background-color: var(--base);
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(var(--blur));
+}
+
+span.span__JS {
+    color: var(--base);
+}
